@@ -6,7 +6,10 @@
 ## Data Masking ##
 Data masking provides an additional layer of object-level access control, for example to complement SELECT privileges. Regular object-level access control privileges return either a result set or an error: insufficient privileges. With data masking, a result set is always returned. However, unless the user has the UNMASKED object-level privilege, the data will be hidden as defined by the mask.
 
-Different implementations are possible. Below a simple example.
+Different implementations are possible. Below a simple example from the SAP HANA SQL and System Views Reference for SAP HANA Service Guide. We are using the SQL Console of the Database Explorer and the SAP Cloud Platform, SAP HANA Service. For on-premise SAP HANA, both the platform and the express edition, the functionality works exactly the same. 
+
+Data masking was introduced with SAP HANA 2.0 SPS 01 (April, 2017). 
+
 ### Tutorial Video ### 
 [![What's New](https://img.youtube.com/vi/JBQ4bMCRXSY/0.jpg)](https://youtu.be/JBQ4bMCRXSY " [2.0 SPS 04] SAP HANA Service, Security, Data Masking (CF) - SAP HANA Academy")
 
