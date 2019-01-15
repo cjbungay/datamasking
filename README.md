@@ -15,6 +15,8 @@ Data masking was introduced with SAP HANA 2.0 SPS 01 (April, 2017).
 
 ![Data Masking](https://help.sap.com/doc/PRODUCTION/18956b5b1b004347b7c350f9378bd2e3/Cloud/en-US/loioac83d82af853469c9e83b6c67d432c70_LowRes.png)
 
+![Data Masking 2](https://help.sap.com/doc/PRODUCTION/18956b5b1b004347b7c350f9378bd2e3/Cloud/en-US/loio75ed4d8098324abba8d60eefe7f4f6e2_LowRes.png)
+
 ## Code Sample ##
 In this example for data masking, you execute the following statements to create three users.
 ```
