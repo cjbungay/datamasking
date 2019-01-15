@@ -4,15 +4,15 @@
 [SAP HANA Security](https://www.youtube.com/playlist?list=PLkzo92owKnVz2TJuTO9B71U7gTsG6beVJ)
 
 ## Data Masking ##
-In the first video, the concepts of client-side data encryption are explained. 
+Data masking provides an additional layer of object-level access control, for example to complement SELECT privileges. Regular object-level access control privileges return either a result set or an error: insufficient privileges. With data masking, a result set is always returned. However, unless the user has the UNMASKED object-level privilege, the data will be hidden as defined by the mask.
+
+Different implementations are possible. Below a simple example.
 ### Tutorial Video ### 
 [![What's New](https://img.youtube.com/vi/JBQ4bMCRXSY/0.jpg)](https://youtu.be/JBQ4bMCRXSY " [2.0 SPS 04] SAP HANA Service, Security, Data Masking (CF) - SAP HANA Academy")
 
-(https://help.sap.com/doc/PRODUCTION/18956b5b1b004347b7c350f9378bd2e3/Cloud/en-US/loioac83d82af853469c9e83b6c67d432c70_LowRes.png)
+![Data Masking](https://help.sap.com/doc/PRODUCTION/18956b5b1b004347b7c350f9378bd2e3/Cloud/en-US/loioac83d82af853469c9e83b6c67d432c70_LowRes.png)
 
 ## Code Sample ##
-Below a code sample from the [CREATE VIEW Statement (Data Definition) – SAP HANA SQL and System Views Reference for SAP HANA Service](https://help.sap.com/viewer/7c78579ce9b14a669c1f3295b0d8ca16/Cloud/en-US/20d5fa9b75191014a33eee92692f1702.html)
-
 In this example for data masking, you execute the following statements to create three users.
 ```
 CREATE USER mask_owner PASSWORD Password1234 NO FORCE_FIRST_PASSWORD_CHANGE;
@@ -100,4 +100,5 @@ REVOKE UNMASKED ON credit_view FROM end_user;
 
 ### Documentation ### 
 * [Data Masking – SAP HANA Security Guide for SAP HANA Service](https://help.sap.com/viewer/18956b5b1b004347b7c350f9378bd2e3/Cloud/en-US/aaa8d28740ea4cfd907d5a70017b1633.html)
+* [CREATE VIEW Statement (Data Definition) – SAP HANA SQL and System Views Reference for SAP HANA Service](https://help.sap.com/viewer/7c78579ce9b14a669c1f3295b0d8ca16/Cloud/en-US/20d5fa9b75191014a33eee92692f1702.html)
 
