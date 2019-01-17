@@ -11,7 +11,7 @@ Different implementations are possible. Below a simple example from the SAP HANA
 Data masking was introduced with SAP HANA 2.0 SPS 01 (April, 2017). 
 
 ### Tutorial Video ### 
-[![What's New](https://img.youtube.com/vi/JBQ4bMCRXSY/0.jpg)](https://youtu.be/JBQ4bMCRXSY " [2.0 SPS 04] SAP HANA Service, Security, Data Masking (CF) - SAP HANA Academy")
+[![What's New](https://img.youtube.com/vi/JBQ4bMCRXSY/0.jpg)](https://youtu.be/JBQ4bMCRXSY "SAP HANA Service, Security, Data Masking - SAP HANA Academy")
 
 ![Data Masking](https://help.sap.com/doc/PRODUCTION/18956b5b1b004347b7c350f9378bd2e3/Cloud/en-US/loioac83d82af853469c9e83b6c67d432c70_LowRes.png)
 
